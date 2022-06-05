@@ -2,19 +2,50 @@
 
 body {
   border-color: #eee;
-  background-color: #eee;
+  background: #eee;
   color: black;
+  font-family: "Source Sans Pro";
 }
 
 .newspaper-container {
-  color: white;
+  background: white;
   box-shadow: #ddd;
+  width: 700px;
+  border-radius: 1em;
+  box-shadow: 1px 1px 1px 1px;
+  padding: 10px;
 }
 
-a {
+li {
+  list-style: none;
+  margin-left: 5px;
+  display: inline-block;
+  padding: 3px;
+}
+
+nav {
   color: #777;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
 
 main {
   color: #dd3232;
+  display: inline inline-block;
+}
+
+header {
+  font-family: "Abril Fatface";
+  text-align: center;
+}
+
+article {
+  font-family: "Roboto Slab";
+  display: flex;
+  width: auto;
+  border-top: 2px solid black;
+}
+
+:root {
+  color: black;
 }
